@@ -16,5 +16,17 @@ public class C02_Operators {
 
         boolean c = 20==b;
         System.out.println(c);
+
+        // eşit değil mi için != kullanırız sonuc true veya false döner
+        // And oparatörü çift && veya tek & kullanılır.
+        // çift && hem hem yani hepsinin doğru veya hepsinin yanlış olması gerekir.
+        // ilk bulduğu hatada işlemi sonlandırır ve atamayı yapar
+        // tek & ise hatayı bulsada işlemi sonuna kadar devam ettirdikten sonra
+        // atamayı yapar
+
+
+        //Or (veya) operatörü || işareti ile gösterilir. 2 boolean ifadenin
+        // ikiside false olmadığı sürece true döner.
+        // Yani ifadelerden birinin true olması or oparatörü için yeterlidir
     }
 }
